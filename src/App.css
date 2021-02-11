@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: "Kanit", sans-serif !important;
+}
+.b-top {
+  border: 5px solid #e81313 !important;
+}

@@ -1,0 +1,52 @@
+.font-footer {
+  
+
+  padding-top: 50px;
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    font-size: medium;
+    margin-top: 22px;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: medium;
+    font-weight: 600;
+  }
+  p {
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-size: small;
+  }
+  img {
+    width: 18vh;
+  }
+  @media screen and (min-width: 1440px) {
+    img {
+      width: 13vh;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    P {
+      font-size: 20px;
+    }
+  }
+  .td-img {
+    img {
+      width: 14vh;
+    }
+    @media screen and (min-width: 1440px) {
+      img {
+        width: 13vh;
+      }
+    }
+  }
+}

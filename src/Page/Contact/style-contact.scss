@@ -1,0 +1,47 @@
+.cotact-header {
+  h1 {
+    margin-top: 10vh;
+
+    font-size: 70px;
+    color: rgba(0, 123, 255, 0.5);
+  }
+}
+.cotact-header-title {
+  .col-contact {
+    box-shadow: 10px -7px 20px #dae0e5;
+  }
+  margin-top: 5vh;
+  .demo-problem,
+  .demo-solution {
+    h6 {
+      font-size: 20px;
+    }
+  }
+  p {
+    margin-left: 70px;
+    margin-bottom: 5vh;
+  }
+  .demo-solution--flexbox {
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    img {
+      max-width: 100%;
+      height: 8vh;
+      width: auto;
+      margin: 10px;
+      padding: 10px;
+      transition: margin 300ms;
+    }
+
+    &:hover {
+      img {
+        margin-left: 15px;
+      }
+    }
+  }
+  .map-contact {
+    margin-top: 10vh;
+  }
+}
