@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Switch, Route } from "react-router-dom";
 import About from "../../Page/About";
 import Contact from "../../Page/Contact";
@@ -9,7 +8,7 @@ import WebDesign from "../../Page/WebDesign";
 import ScrollToTop from "../../scoll";
 export default function Routes() {
   return (
-    <div>
+    <>
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -18,6 +17,6 @@ export default function Routes() {
         <Route exact path="/printdesign" component={PrintDesign} />
         <Route exact path="/webdesign" component={WebDesign} />
       </Switch>
-    </div>
+    </>
   );
 }

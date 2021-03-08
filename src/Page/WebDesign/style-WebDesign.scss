@@ -45,7 +45,10 @@
       }
     }
     @media screen and(max-width:1441px) {
-      top: 64%;
+      top: 60%;
+    }
+    @media screen and(max-width:1025px) {
+      top: 45%;
     }
     @media screen and(max-width:769px) {
       top: 40%;
@@ -253,6 +256,15 @@
     h1 {
       color: rgb(255, 255, 255);
     }
+    @media screen and(max-width:400px) {
+      h1 {
+        font-size: 23px;
+      }
+      padding: 25px;
+      button {
+        padding: 5px 14px !important;
+      }
+    }
     button {
       background-color: #4caf50; /* Green */
       border: none;
@@ -280,11 +292,17 @@
   padding-top: 15vh;
   padding-bottom: 4vh;
   text-align: center;
-
-  h1 {
-    text-align: center;
-    padding-bottom: 10vh;
+  .web-tools-text {
+    h1 {
+      text-align: center;
+      padding-bottom: 10vh;
+      font-size: 2.5rem;
+      @media screen and (max-width: 400px) {
+        font-size: 2rem;
+      }
+    }
   }
+
   .web-tools-picture {
     padding-top: 5vh;
 
@@ -298,6 +316,10 @@
       text-align: center;
       padding-top: 2vh;
       padding-bottom: 1vh;
+      font-size: 24px;
+      @media screen and (max-width: 400px) {
+        font-size: 20px;
+      }
     }
     .web-tools-1 {
       padding-bottom: 10vh;
@@ -309,6 +331,12 @@
       padding-bottom: 10vh;
     }
     .web-tools-4 {
+      padding-bottom: 10vh;
+    }
+    .web-tools-5 {
+      padding-bottom: 10vh;
+    }
+    .web-tools-6 {
       padding-bottom: 10vh;
     }
   }

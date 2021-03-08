@@ -5,11 +5,11 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Contact() {
   return (
     <>
-      <div className="cotact-header">
+      {/* <div className="cotact-header">
         <Container>
           <h1>Contact</h1>
         </Container>
-      </div>
+      </div> */}
       <div className="cotact-header-title">
         <Container>
           <Row className="col-contact">

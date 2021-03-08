@@ -26,105 +26,123 @@ export default function WebDesign() {
         <div className="ek">
           <Container>
             <h1>หน่วยงานรัฐ</h1>
-          </Container>
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-1.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Hello World</h3>
-              <p class="card-content">
+          </Container>{" "}
+          <a href="http://sukkasaem.com/" target="_black">
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-1.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title"> เทศบาลตำบลหัวทะเล </h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>{" "}
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-2.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Hello World</h3>
-              <p class="card-content">
+              </p> */}
+              </div>
+            </div>{" "}
+          </a>{" "}
+          <a href="http://www.klongpaicentralprison.go.th/" target="_black">
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-2.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title">เรือนจำกลางคลองไผ่</h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>{" "}
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-3.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Hello World</h3>
-              <p class="card-content">
+              </p> */}
+              </div>
+            </div>{" "}
+          </a>
+          <a href="  http://www.lamprapleng.com/" target="_black">
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-3.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title">โครงการส่งน้ำ</h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>{" "}
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-4.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Hello World</h3>
-              <p class="card-content">
+              </p> */}
+              </div>
+            </div>{" "}
+          </a>
+          <a
+            href="https://bankhwao.go.th/%e0%b8%ab%e0%b8%99%e0%b9%89%e0%b8%b2%e0%b9%81%e0%b8%a3%e0%b8%81/"
+            target="_black"
+          >
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-4.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title">เทศบาลตำบลบ้านเขว้า</h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-5.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Card 2</h3>
-              <p class="card-content">
+              </p> */}
+              </div>
+            </div>{" "}
+          </a>
+          <a
+            href="https://chae.go.th/%e0%b8%ab%e0%b8%99%e0%b9%89%e0%b8%b2%e0%b9%81%e0%b8%a3%e0%b8%81/"
+            target="_black"
+          >
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-5.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title">อบต.แชะ</h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>
-          <div class="card">
-            <img
-              class="card-image"
-              src="Picture/web design/rat\rat-6.png"
-              alt=""
-            />
-            {/* <div class="card-body">
-              <h3 class="card-title">Card 2</h3>
-              <p class="card-content">
+              </p> */}
+              </div>
+            </div>
+          </a>
+          <a href="https://lamnangkaeo.go.th/" target="_black">
+            <div className="card">
+              <img
+                className="card-image"
+                src="Picture/web design/rat/rat-6.png"
+                alt=""
+              />
+              <div className="card-body">
+                <h3 className="card-title">เทศบาลตำบลลำนางแก้ว</h3>
+                {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div> */}
-          </div>
+              </p> */}
+              </div>
+            </div>
+          </a>
         </div>
         <div className="rat">
           <Container>
             <h1>หน่วยงานเอกชน</h1>
           </Container>
           <a href="  http://vipfit.co.th/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/vip fitness.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title">VIP Fitness</h3>
+              <div className="card-body">
+                <h3 className="card-title">VIP Fitness</h3>
                 {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -133,14 +151,14 @@ export default function WebDesign() {
             </div>{" "}
           </a>
           <a href=" http://www.sirimongkols.com/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/siri.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title">ศิริมงคลพระเครื่อง</h3>
+              <div className="card-body">
+                <h3 className="card-title">ศิริมงคลพระเครื่อง</h3>
                 {/* <p class="card-content">
                 
               </p> */}
@@ -148,13 +166,13 @@ export default function WebDesign() {
             </div>{" "}
           </a>
           <a href=" http://www.print-dee.com/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
                 class="card-image"
                 src="Picture/web design/ek/mit.png"
                 alt=""
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h3 class="card-title"> มิตรภาพการพิมพ์ </h3>
                 {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -164,14 +182,14 @@ export default function WebDesign() {
             </div>{" "}
           </a>
           <a href=" http://www.thepsatitview.com/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
                 class="card-image"
                 src="Picture/web design/ek/lnw.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title"> เทพสถิตวิวล์ รีสอร์ท</h3>
+              <div className="card-body">
+                <h3 className="card-title"> เทพสถิตวิวล์ รีสอร์ท</h3>
                 {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -180,14 +198,14 @@ export default function WebDesign() {
             </div>{" "}
           </a>
           <a href=" https://www.kspavilion.com/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/ks.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title"> โรงแรม เค.เอส. พาวิลเลี่ยน</h3>
+              <div className="card-body">
+                <h3 className="card-title"> โรงแรม เค.เอส. พาวิลเลี่ยน</h3>
                 {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -196,14 +214,14 @@ export default function WebDesign() {
             </div>{" "}
           </a>
           <a href=" http://www.cadetgroup.com/" target="_black">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/Cadet Group.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title">Cädet Group</h3>
+              <div className="card-body">
+                <h3 className="card-title">Cädet Group</h3>
                 {/* <p class="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -213,7 +231,7 @@ export default function WebDesign() {
           </a>
         </div>
         <div className="web-picture-button">
-          <h1>สร้างเว็บไซต์อย่างมีประสิทธิภาพของคุณ.....</h1>
+          <h1>สร้างเว็บไซต์อย่างมีประสิทธิภาพของคุณ...</h1>
           <Link to="/contact">
             <button>
               <span>ติดต่อเรา</span>
@@ -234,7 +252,7 @@ export default function WebDesign() {
                     src="Picture/web design/tools/react.png"
                     alt="tools-react"
                   ></img>
-                  <h1>react</h1>
+                  <h1>React</h1>
                 </div>
               </Col>
               <Col md={4}>
@@ -243,7 +261,7 @@ export default function WebDesign() {
                     src="Picture/web design/tools/adobe.png"
                     alt="tools-adobe"
                   ></img>
-                  <h1>adobe</h1>
+                  <h1>Adobe</h1>
                 </div>
               </Col>
               <Col md={4}>
@@ -252,7 +270,7 @@ export default function WebDesign() {
                     src="Picture/web design/tools/node-js.png"
                     alt="tools-node"
                   ></img>
-                  <h1>node js</h1>
+                  <h1>Node js</h1>
                 </div>
               </Col>
               <Col md={4}>
@@ -261,7 +279,7 @@ export default function WebDesign() {
                     src="Picture/web design/tools/responsive.png"
                     alt="tools-node"
                   ></img>
-                  <h1>responsive</h1>
+                  <h1>Responsive</h1>
                 </div>
               </Col>
               <Col md={4}>
@@ -270,7 +288,16 @@ export default function WebDesign() {
                     src="Picture/web design/tools/wordpress.png"
                     alt="tools-wordpress"
                   ></img>
-                  <h1>wordpress</h1>
+                  <h1>Wordpress</h1>
+                </div>
+              </Col>
+              <Col md={4}>
+                <div className="web-tools-6">
+                  <img
+                    src="Picture/web design/tools/google.png"
+                    alt="tools-wordpress"
+                  ></img>
+                  <h1>Google Analytics</h1>
                 </div>
               </Col>
             </Row>

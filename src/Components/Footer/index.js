@@ -17,7 +17,7 @@ export default function Footer() {
               </p>
               <h3>สาขานครราชสีมา</h3>
               <p>
-                327924 ถสืบศิริ ตในเมือง อเมือง จนครราชสีมา 30000
+                3279/24 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000
                 โnS.044-353-569, 044-353-298 มือถือ 081-535-9230
               </p>
             </Col>
@@ -30,38 +30,41 @@ export default function Footer() {
                 allweb.technology@gmail.com Tel.+6644353569,+6644353298,
                 +66815359230 ID Line allwebcctv
               </p>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img
+                        src="Picture/Footer/line-P-poun.jpg"
+                        alt=""
+                        width="100%"
+                      ></img>
+                    </td>
 
-              <tbody>
-                <tr>
-                  <td>
-                    <img
-                      src="Picture/Footer/line-P-poun.jpg"
-                      alt=""
-                      width="100%"
-                    ></img>
-                  </td>
-
-                  <td className="td-img">
-                    <a
-                      href="https://line.me/R/ti/p/%40hua8211q"
-                      target="_black"
-                    >
-                      <img src="Picture/Footer/line-icon.png" alt=""></img>
-                      <br />
-                    </a>
-                    <a
-                      href="https://www.facebook.com/allwebtechnology/"
-                      target="_black"
-                    >
-                      <img src="Picture/Footer/Facebook-Logo.png" alt=""></img>
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
+                    <td className="td-img">
+                      <a
+                        href="https://line.me/R/ti/p/%40hua8211q"
+                        target="_black"
+                      >
+                        <img src="Picture/Footer/line-icon.png" alt=""></img>
+                        <br />
+                      </a>
+                      <a
+                        href="https://www.facebook.com/allwebtechnology/"
+                        target="_black"
+                      >
+                        <img
+                          src="Picture/Footer/Facebook-Logo.png"
+                          alt=""
+                        ></img>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </Col>
           </Row>
         </Container>
-        
       </div>
     </>
   );

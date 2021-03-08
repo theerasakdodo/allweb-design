@@ -7,10 +7,14 @@
   }
 }
 .cotact-header-title {
+  background-color: #e5e9ed;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
   .col-contact {
-    box-shadow: 10px -7px 20px #dae0e5;
+    box-shadow: 9px 10px 3px #c5c5c5;
+    background-color: white;
   }
-  margin-top: 5vh;
+
   .demo-problem,
   .demo-solution {
     h6 {
@@ -42,6 +46,7 @@
     }
   }
   .map-contact {
+    box-shadow: 9px 9px 3px #c5c5c5;
     margin-top: 10vh;
   }
 }

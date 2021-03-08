@@ -48,15 +48,15 @@ export default function Home() {
         </div>
         <div className="home-project-1">
           <Link to="/webdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/vip fitness.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title">VIP Fitness</h3>
-                {/* <p class="card-content">
+              <div className="card-body">
+                <h3 className="card-title">VIP Fitness</h3>
+                {/* <p className="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p> */}
@@ -64,30 +64,30 @@ export default function Home() {
             </div>{" "}
           </Link>
           <Link to="/webdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/siri.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title">ศิริมงคลพระเครื่อง</h3>
-                {/* <p class="card-content">
+              <div className="card-body">
+                <h3 className="card-title">ศิริมงคลพระเครื่อง</h3>
+                {/* <p className="card-content">
                 
               </p> */}
               </div>
             </div>{" "}
           </Link>
           <Link to="/webdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/web design/ek/mit.png"
                 alt=""
               />
-              <div class="card-body">
-                <h3 class="card-title"> มิตรภาพการพิมพ์ </h3>
-                {/* <p class="card-content">
+              <div className="card-body">
+                <h3 className="card-title"> มิตรภาพการพิมพ์ </h3>
+                {/* <p className="card-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p> */}
@@ -95,41 +95,41 @@ export default function Home() {
             </div>{" "}
           </Link>
           <Link to="/printdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/printdesig/re-7.jpg"
                 alt="card"
               />
-              <div class="card-body">
-                <h3 class="card-title">นิทรรศการป๊อปอัพ</h3>
-                {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+              <div className="card-body">
+                <h3 className="card-title">นิทรรศการป๊อปอัพ</h3>
+                {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
               </div>
             </div>{" "}
           </Link>
           <Link to="/printdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/printdesig/re-11.jpg"
                 alt="card"
               />
-              <div class="card-body">
-                <h3 class="card-title">ปฏิทิน</h3>
-                {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+              <div className="card-body">
+                <h3 className="card-title">ปฏิทิน</h3>
+                {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
               </div>
             </div>
           </Link>
           <Link to="/printdesign">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-image"
+                className="card-image"
                 src="Picture/printdesig/re-12.jpg"
                 alt="card"
               />
-              <div class="card-body">
-                <h3 class="card-title">โปสเตอร์ การ์ด</h3>
-                {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+              <div className="card-body">
+                <h3 className="card-title">โปสเตอร์ การ์ด</h3>
+                {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
               </div>
             </div>{" "}
           </Link>
@@ -161,7 +161,7 @@ export default function Home() {
       <div className="home-contact">
         <h1>สร้างผลงานที่ยอดเยี่ยม...</h1>
         <Link to="/contact">
-          <button class="button button1">ติดต่อ</button>
+          <button className="button button1">ติดต่อ</button>
         </Link>
       </div>
     </>

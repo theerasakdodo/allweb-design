@@ -55,9 +55,9 @@ export default function PrintDesign() {
         </div>
 
         <div className="print-photos-1">
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-5.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -70,17 +70,17 @@ export default function PrintDesign() {
                   alt="card"
                   className="img-1"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">สื่อสิ่งพิมพ์</h3>
+            <div className="card-body">
+              <h3 className="card-title">สื่อสิ่งพิมพ์</h3>
               {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-2.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -93,17 +93,17 @@ export default function PrintDesign() {
                   alt="card"
                   className="img"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">โปสการ์ด</h3>
+            <div className="card-body">
+              <h3 className="card-title">โปสการ์ด</h3>
               {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-1.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -116,17 +116,17 @@ export default function PrintDesign() {
                   alt="card"
                   className="img"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">สื่อสิ่งพิมพ์</h3>
-              {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+            <div className="card-body">
+              <h3 className="card-title">สื่อสิ่งพิมพ์</h3>
+              {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-7.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -139,17 +139,17 @@ export default function PrintDesign() {
                   alt="card"
                   className="img"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">นิทรรศการป๊อปอัพ</h3>
-              {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+            <div className="card-body">
+              <h3 className="card-title">นิทรรศการป๊อปอัพ</h3>
+              {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-11.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -162,18 +162,18 @@ export default function PrintDesign() {
                   alt="card"
                   className="img-1"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">ปฏิทิน</h3>
-              {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
+            <div className="card-body">
+              <h3 className="card-title">ปฏิทิน</h3>
+              {/* <p className="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>
 
-          <div class="card">
+          <div className="card">
             <img
-              class="card-image"
+              className="card-image"
               src="Picture/printdesig/re-12.jpg"
               alt="card"
               style={{ cursor: "pointer" }}
@@ -186,11 +186,11 @@ export default function PrintDesign() {
                   alt="card"
                   className="img"
                 ></img>
-                <span class="button-1">close</span>
+                <span className="button-1">close</span>
               </div>
             ) : null}
-            <div class="card-body">
-              <h3 class="card-title">โปสการ์ด</h3>
+            <div className="card-body">
+              <h3 className="card-title">โปสการ์ด</h3>
               {/* <p class="card-content">เราใส่ใจทุกความต้องการของลูกค้า</p> */}
             </div>
           </div>

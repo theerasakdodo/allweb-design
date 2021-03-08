@@ -8,6 +8,8 @@ function App() {
     <>
       <Header />
       <Routes />
+
+      <Footer />
       <ScrollUpButton
         style={{
           border: "5px solid #007bff ",
@@ -15,7 +17,6 @@ function App() {
           fill: "rgb(0 123 255 / 25%)",
         }}
       />
-      <Footer />
     </>
   );
 }
